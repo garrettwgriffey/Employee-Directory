@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-export default function Header() {
+function Header() {
     return (
         <header style={{ backgroundColor: 'red'}}>
            <h1 style={ header.h1 }>Employee Directory</h1> 
@@ -11,10 +11,12 @@ export default function Header() {
 
 const header = {
     backgroundColor: 'green',
-    h1 : {
+    h1: {
     textAlign: 'center'
     },
-    p : {
+    p: {
         textAlign: 'right'
     },
 };
+
+export default Header();
