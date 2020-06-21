@@ -12,15 +12,17 @@ class Table extends Component {
           // search={this.state.search}
           placeholder="Search ..."
           // value={this.state.search}
-          // onChange={this.onChange}
+          // onChange={this.onChange} this is where search will work 1n 12, 14 & 15
         ></input>
     <table className="table table-hover">
   <thead>
     <tr>
-      <th scope="col">#</th>
+      <th scope="col"></th>
       <th scope="col">First</th>
       <th scope="col">Last</th>
-      <th scope="col">Handle</th>
+      <th scope="col">E-mail</th>
+      <th scope="col">Phone Number</th>
+      <th scope="col">Location</th>
     </tr>
   </thead>
   {/* <tbody><TableRow/></tbody> */}
@@ -32,3 +34,9 @@ class Table extends Component {
 }
 
 export default Table;
+
+
+// where going to do axios call
+// where were going to put promise from API 
+// set state
+// search and sort
