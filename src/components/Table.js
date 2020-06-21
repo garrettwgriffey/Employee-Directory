@@ -1,9 +1,19 @@
 import React, { Component } from 'react';
+// import TableRow from './TableRow';
 
 class Table extends Component {
     render() {
         return (
     <div className='container'>
+      <input
+          // style={inputStyle}
+          type="text"
+          name="search"
+          // search={this.state.search}
+          placeholder="Search ..."
+          // value={this.state.search}
+          // onChange={this.onChange}
+        ></input>
     <table className="table table-hover">
   <thead>
     <tr>
@@ -13,25 +23,8 @@ class Table extends Component {
       <th scope="col">Handle</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td colspan="2">Larry the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
+  {/* <tbody><TableRow/></tbody> */}
+  
 </table>
             </div>
         )
