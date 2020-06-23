@@ -7,7 +7,7 @@ export default function TableRow(props) {
     <tr>
       <th scope="row"><img style={styles.image} alt={props.first} src={props.thumbnail} /></th>
       <td>{ props.first }</td>
-      <td>{ props.first }</td>
+      <td>{ props. }</td>
       <td>{ props.first }</td>
       <td>{ props.first }</td>
       <td>{ props.first }</td>

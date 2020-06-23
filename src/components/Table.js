@@ -1,6 +1,15 @@
 import React, { Component } from 'react';
 // import TableRow from './TableRow';
 
+const inputStyle = {
+  marginLeft: "400px",
+  marginBottom: "50px",
+  marginTop: "50px",
+  flex: "10",
+  padding: "5px ",
+  width: "300px",
+};
+
 class Table extends Component {
     render() {
         return (
@@ -22,7 +31,7 @@ class Table extends Component {
       <th scope="col">Last</th>
       <th scope="col">E-mail</th>
       <th scope="col">Phone Number</th>
-      <th scope="col">Location</th>
+      <th scope="col">DOB</th>
     </tr>
   </thead>
   {/* <tbody><TableRow/></tbody> */}
