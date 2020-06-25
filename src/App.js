@@ -18,7 +18,8 @@ class App extends Component {
           last: emp.name.last,
           email: emp.email,
           phone: emp.phone,
-          dob: (emp.dob.date)
+          dob: (emp.dob.date),
+          thumbnail: emp.picture.thumbnail
         };
       });
       this.setState({
@@ -32,17 +33,19 @@ class App extends Component {
     return (
       <>
       <Header />
-      <Table />
+      <Table employees={this.state.employees} />
       </>
       
     );
   }
 }
 
+
 export default App;
 
+
 // store api info in App.js 
-// us componentDidMount and store response in state, then pass to components that need it
+// use componentDidMount and store response in state, then pass to components that need it
 // 1st give data to table and render it
 // 2nd get sorted by one row
 // 3rd search function working

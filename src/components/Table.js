@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-// import TableRow from './TableRow';
+import React from 'react';
+import TableRow from './TableRow';
 
 const inputStyle = {
   marginLeft: "400px",
@@ -10,11 +10,10 @@ const inputStyle = {
   width: "300px",
 };
 
-class Table extends Component {
-    render() {
+function Table(props) {
         return (
     <div className='container'>
-      <input
+      <input 
           // style={inputStyle}
           type="text"
           name="search"
@@ -22,7 +21,7 @@ class Table extends Component {
           placeholder="Search ..."
           // value={this.state.search}
           // onChange={this.onChange} this is where search will work 1n 12, 14 & 15
-        ></input>
+      />
     <table className="table table-hover">
   <thead>
     <tr>
@@ -34,13 +33,24 @@ class Table extends Component {
       <th scope="col">DOB</th>
     </tr>
   </thead>
-  {/* <tbody><TableRow/></tbody> */}
+  <tbody>
+    {props.employees.map(emp => (
+      <TableRow 
+        first={emp.first}
+        last={emp.last}
+        email={emp.email}
+        phone={emp.phone}
+        dob={emp.dob}
+        thumbnail={emp.thumbnail}
+        key={emp.phone}
+      />
+    ))}
+  </tbody>
   
 </table>
             </div>
         )
     }
-}
 
 export default Table;
 
