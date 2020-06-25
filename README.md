@@ -15,6 +15,8 @@ Employee-Directory
 ##  **Table of Contents**
 * Description
 * Technology Stack
+* Contributers
+* Contact
 
 ## **Description**
 User can search an open source API for listed employees.
