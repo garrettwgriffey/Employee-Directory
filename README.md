@@ -3,6 +3,8 @@
 
   <img align="right" width="300" height="300" src="https://avatars.githubusercontent.com/u/59263270?">
 
+  <img align="right" width="300" height="300" src = assets\images\brandmark-design.png>
+
   
 # **Project** 
 Employee-Directory
@@ -13,12 +15,14 @@ Employee-Directory
 ##  **Table of Contents**
 * Description
 * Technology Stack
-* Usage
 
 ## **Description**
-User can search a database for listed employees.
+User can search an open source API for listed employees.
 
 <img src = assets\images\emp-dirSS.jpg>
+
+## **Technology Stack**
+React, HTML, JavaScript
 
 
 ## **Contributors**
