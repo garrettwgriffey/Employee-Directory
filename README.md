@@ -3,7 +3,7 @@
 
   <img align="right" width="300" height="300" src="https://avatars.githubusercontent.com/u/59263270?">
 
-  <img align="right" width="300" height="300" src = assets\images\brandmark-design.png>
+
 
   
 # **Project** 
@@ -33,6 +33,8 @@ Garrett Wells Griffey
 #### * Portfolio: "https://github.com/garrettwgriffey.github.io/
 #### * Email: [garrettwgriffey@gmail.com](garrettwgriffey@gmail.com)
 #### * LinkedIn: https://www.linkedin.com/in/garrettwgriffey
+
+  <img align="center" width="300" height="300" src = assets\images\brandmark-design.png>
 
 ## 
 
