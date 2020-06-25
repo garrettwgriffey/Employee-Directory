@@ -1,6 +1,6 @@
 {
   "homepage": "https://garrettwgriffey.github.io/Employee-Directory/",
-  "name": "emp",
+  "name": "Employee-Directory",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
