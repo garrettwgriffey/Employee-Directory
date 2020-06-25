@@ -10,7 +10,7 @@
 Employee-Directory
 
 ## Live Link 
-* https://garrettwgriffey.github.io/Employee-Directory/ *
+* https://garrettwgriffey.github.io/Employee-Directory/ 
 
 ##  **Table of Contents**
 * Description
