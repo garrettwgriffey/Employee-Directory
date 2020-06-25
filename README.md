@@ -15,7 +15,7 @@ Employee-Directory
 ##  **Table of Contents**
 * Description
 * Technology Stack
-* Contributers
+* Contributors
 * Contact
 
 ## **Description**
